@@ -1,0 +1,76 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFCC; /* 淺黃色背景 */
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li:hover {
+    background-color: #555;
+  }
+  
+  nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #FFF;
+    background-color: #333; /* 更適合的背景顏色 */
+    padding: 10px;
+  }
+  
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  /* 按鈕動畫 */
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #555;
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
